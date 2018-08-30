@@ -9,6 +9,6 @@ def my_each(arg) # put argument(s) here
   arg
 end
 
-my_each() do |a|
+my_each(arg) do |a|
   puts a
 end
