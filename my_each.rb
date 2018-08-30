@@ -8,6 +8,6 @@ def my_each(collection) # put argument(s) here
   collection
 end
 
-my_each(collection) do |a|
-  puts a
+my_each(collection) do |collection|
+  puts collection
 end
