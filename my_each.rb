@@ -1,14 +1,14 @@
-def my_each(arg) # put argument(s) here
+def my_each(collection) # put argument(s) here
   # code here
   
   i=0
-  while i < arg.length
-    yield arg[i]
+  while i < collection.length
+    yield collection[i]
     i += 1
   end
   arg
 end
 
-my_each do |a|
+my_each(collection) do |a|
   puts a
 end
